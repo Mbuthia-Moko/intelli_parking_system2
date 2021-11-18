@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Visa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Abi Muso">
+    <meta name="description" content="Cashier Module Page">
+    <link rel="stylesheet" href="page.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <h1>Illumeni Parkings</h1>
+            <div class="link">
+                <a href="#">
+                    <div class="icon">
+                        <span><img src="janey.jpeg" height="60px" width="50px" border-radius="50px"></span>
+                    </div>
+                </a>
+                <a id="img" href="#">
+                    <div class="dropdown">
+                        <span><i class="material-icons">&#xe5d2;</i></span>
+
+                        <div class="dropdown-content">
+                            <a href="#">Home</a>
+                            <a href="#">Reservation Page</a>
+                            <a href="#">Contact Us</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </div>
+    <div class="contl">
+        <h2>Payment</h2>
+        <br>
+        <button id="hi" class="button1 bouncy"> <a href="visa.html"><img src="symbols.png" width="60px" height="40px"></a></button>
+        <button class="button1 bouncy"><a href="paypal.html" style="animation-delay:0.07s"><img src="paypal.png" width="60px" height="40px"></a></button>
+        <button class="button1 bouncy"><a href="mpesa.html" style="animation-delay:0.14s"><img src="wallet.png" width="60px" height="40px"></a></button>
+
+
+        <div class="form">
+            <form>
+                <label>Your Name</label>
+                <br>
+                <input type="text" name="name">
+                <br>
+                <label>Card Number</label>
+                <br>
+                <input id="exp2" type="text" name="card_no">
+                <br>
+                <div class="date">
+                    <label>Expiry Date</label>
+                    <br>
+                    <input type="date" name="date">
+                    <br>
+                </div>
+                <div class="cvv">
+                    <label>CVV</label>
+                    <input type="number" name="cvv">
+                </div>
+                <br>
+                <div class="para">
+                    <p>By clicking confirm payment, you agree to company's terms and conditions</p>
+                </div>
+                <div class="button2">
+                    <button id="btn1"><span>Back</span></button>
+
+                    <button id="btn2" type="submit" value="submit" class="btn btn-lg btn-primary btn-block" id="btn" onclick="loadSequence()">
+                        <i class="fa fa-lock" style="font-size:24px"></i>  Confirm payment
+                      </button>
+
+                </div>
+            </form>
+        </div>
+        <div class="contr">
+            <div class="cont">
+
+
+                <h2>Summary</h2>
+                <label for="Number Plate">Number Plate</label>
+                <p>smth</p>
+                <label>Parking Space</label>
+                <p>smth</p>
+                <label>Location</label>
+                <p>smth</p>
+                <label>Time In</label>
+                <p>smth</p>
+                <label>Time Out</label>
+                <p>smth</p>
+                <label>Total Fee</label>
+                <p>smth</p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
